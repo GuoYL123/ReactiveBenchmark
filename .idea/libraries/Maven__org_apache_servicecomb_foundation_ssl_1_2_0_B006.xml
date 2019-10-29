@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.servicecomb:foundation-ssl:1.2.0.B006">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/servicecomb/foundation-ssl/1.2.0.B006/foundation-ssl-1.2.0.B006.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/servicecomb/foundation-ssl/1.2.0.B006/foundation-ssl-1.2.0.B006-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/servicecomb/foundation-ssl/1.2.0.B006/foundation-ssl-1.2.0.B006-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

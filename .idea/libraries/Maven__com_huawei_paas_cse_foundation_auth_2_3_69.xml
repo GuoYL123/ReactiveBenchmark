@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.huawei.paas.cse:foundation-auth:2.3.69">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/huawei/paas/cse/foundation-auth/2.3.69/foundation-auth-2.3.69.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/huawei/paas/cse/foundation-auth/2.3.69/foundation-auth-2.3.69-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/huawei/paas/cse/foundation-auth/2.3.69/foundation-auth-2.3.69-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,27 @@
+APPLICATION_ID: Reactive-Test
+service_description:
+  name: provider
+  version: 0.1.1
+  environment: production
+cse:
+  service:
+    registry:
+      address: https://cse.cn-north-4.myhuaweicloud.com:443
+      instance:
+        watch: false
+  config:
+    client:
+      serverUri: https://cse.cn-north-4.myhuaweicloud.com:443
+      refreshMode: 1
+      refresh_interval: 5000
+  rest:
+    address: 0.0.0.0:8082
+    servlet:
+      urlPattern: /*
+  credentials:
+    accessKey: yourak
+    secretKey: yoursk
+    project: cn-north-4
+    akskCustomCipher: default
+  executors:
+    default: cse.executor.reactive
