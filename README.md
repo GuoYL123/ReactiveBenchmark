@@ -1,17 +1,17 @@
 # ReactiveBenchmark
-这是一个比较vert.x模式和传统tomcat模式性能的测试项目。
-我们使用微服务框架 [java-chassis](https://github.com/apache/servicecomb-java-chassis) (基于vertx/tomcat)
-和 [spring-cloud-huawei](https://github.com/huaweicloud/spring-cloud-huawei) (基于 webflux/tomcat) 来完成测试。
+这是一个比较vert.x reactive模式和传统同步模式性能的测试项目。
+我们使用微服务框架 [java-chassis](https://github.com/apache/servicecomb-java-chassis) (基于reactive vertx/tomcat)
+和 [spring-cloud-huawei](https://github.com/huaweicloud/spring-cloud-huawei) (基于reactive webflux/tomcat) 来完成测试。
 
 [English document](https://github.com/GuoYL123/ReactiveTest/blob/master/README_en.md)
 
 线程模型对比：
 -------
-vert.x async:
+reactive 异步:
 ![vertx](./img/vertx.png)
 
-tomcat sync:
-![tomcat](./img/tomcat.png)
+同步:
+![sync](./img/sync.png)
 
 准备工作：
 -------
