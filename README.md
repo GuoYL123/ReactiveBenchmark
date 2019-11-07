@@ -82,6 +82,8 @@
 | spring cloud 原生(tomcat)             | rt:14.09ms/qps:14.30k | \                    |
 | java chassis(tomcat)                  | rt:13.67ms/qps:15.34k | rt:11.88ms/qps:17.56k |
 | java chassis(vertx reactive)          | rt:6.77ms/qps:33.62k  | rt:5.67ms/qps:42.73k  |
+| dubbo                                 |\ |\ |
+| spring cloud alibaba                  | \ | \ |
 
 100 连接并发：
 
@@ -92,6 +94,8 @@
 | spring cloud 原生(tomcat)             | rt:7.21ms/qps:14.15k | \                   |
 | java chassis(tomcat)                  | rt:6.94ms/qps:15.08k | rt:6.36ms/qps:16.31k |
 | java chassis(vertx reactive)          | rt:4.46ms/qps:32.60k | rt:3.93ms/qps:40.34k |
+| dubbo                                 |\ |\ |
+| spring cloud alibaba                  | \ | \ |
 
 详细数据:
 
