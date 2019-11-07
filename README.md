@@ -7,10 +7,10 @@
 
 线程模型对比：
 -------
-vert.x:
+vert.x async:
 ![vertx](./img/vertx.png)
 
-tomcat:
+tomcat sync:
 ![tomcat](./img/tomcat.png)
 
 准备工作：

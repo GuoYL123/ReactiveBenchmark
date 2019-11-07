@@ -6,10 +6,10 @@ We use [java-chassis](https://github.com/apache/servicecomb-java-chassis) (based
 
 Thread model：
 -------
-vert.x:
+vert.x async:
 ![vertx](./img/vertx.png)
 
-tomcat:
+tomcat sync:
 ![tomcat](./img/tomcat.png)
 
 Prepare：
