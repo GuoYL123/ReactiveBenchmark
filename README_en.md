@@ -1,4 +1,4 @@
-# ReactiveTest
+# ReactiveBenchmark
 This is a benchmarking project to compare performance between Vert.x mode and Tomcat mode during network transmission.
 We use [java-chassis](https://github.com/apache/servicecomb-java-chassis) (based vertx/tomcat) and [spring-cloud-huawei](https://github.com/huaweicloud/spring-cloud-huawei) (based tomcat) do the test.
 

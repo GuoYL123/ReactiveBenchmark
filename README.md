@@ -1,4 +1,4 @@
-# ReactiveTest
+# ReactiveBenchmark
 这是一个比较vert.x模式和传统tomcat模式性能的测试项目。
 我们使用微服务框架 [java-chassis](https://github.com/apache/servicecomb-java-chassis) (基于vertx/tomcat)
 和 [spring-cloud-huawei](https://github.com/huaweicloud/spring-cloud-huawei) (基于 webflux/tomcat) 来完成测试。
