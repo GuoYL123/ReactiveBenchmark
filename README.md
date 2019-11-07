@@ -5,6 +5,16 @@
 
 [English document](https://github.com/GuoYL123/ReactiveTest/blob/master/README_en.md)
 
+线程模型对比：
+-------
+vert.x:
+![vertx](./img/vertx.png)
+
+tomcat:
+![tomcat](./img/tomcat.png)
+
+准备工作：
+-------
 全局替换所有工程配置文件中的ak:*yourak* ，sk:*yoursk*。
 >注册账号 [华为云Service Stage微服务引擎](https://console.huaweicloud.com/servicestage/?package=basic&new=true&region=cn-north-4#/appdev/engine/list)  登陆即可免费获取。
 
@@ -27,7 +37,7 @@
 我们使用 [wrk](https://github.com/wg/wrk) 完成测试。
 
 测试流程:
-
+------
   使用3台配置相同的虚拟机:
   
     环境信息：
@@ -72,7 +82,7 @@
   
   
 测试结果:
-
+-----
 200 连接并发：
 
 | 微服务框架\通信方式                    | http                  | rpc                  |

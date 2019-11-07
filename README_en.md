@@ -4,6 +4,16 @@ We use [java-chassis](https://github.com/apache/servicecomb-java-chassis) (based
 
 [查看中文文档](https://github.com/GuoYL123/ReactiveTest)
 
+Thread model：
+-------
+vert.x:
+![vertx](./img/vertx.png)
+
+tomcat:
+![tomcat](./img/tomcat.png)
+
+Prepare：
+-------
 Globally replace ak:*yourak* , sk:*yoursk*.
 
 Do the following:
@@ -23,7 +33,7 @@ Run demo program
 Benchmarking with [wrk](https://github.com/wg/wrk)
 
 Test process:
-
+--------
   We have 3 virtual machines with the same configuration:
   
     Environment info：
@@ -61,7 +71,7 @@ Test process:
               keepAlive: true
   
 Result:
-
+------
 200 connectionn concurrent
 
 | framework\protocol                    | http                  | rpc                  |
