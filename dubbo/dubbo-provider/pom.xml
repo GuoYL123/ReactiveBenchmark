@@ -11,47 +11,31 @@
 
   <artifactId>dubbo-provider</artifactId>
 
-  <dependencies>
-    <!-- Spring Boot dependencies -->
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
-    </dependency>
-    <!-- Zookeeper dependencies -->
-    <dependency>
-      <groupId>org.apache.dubbo</groupId>
-      <artifactId>dubbo-dependencies-zookeeper</artifactId>
-      <version>${dubbo.version}</version>
-      <type>pom</type>
-      <exclusions>
-        <exclusion>
-          <groupId>org.slf4j</groupId>
-          <artifactId>slf4j-log4j12</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-  </dependencies>
-
   <build>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-        <version>${spring-boot.version}</version>
         <executions>
           <execution>
             <goals>
               <goal>repackage</goal>
             </goals>
+            <configuration>
+              <classifier>spring-boot</classifier>
+              <mainClass>reactive.test.dubbo.DubboProvider</mainClass>
+            </configuration>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <executable>false</executable>
-          <finalName>${project.artifactId}-${spring-boot.version}</finalName>
-          <outputDirectory>${user.dir}/target</outputDirectory>
+          <source>8</source>
+          <target>8</target>
         </configuration>
       </plugin>
     </plugins>
   </build>
-
 </project>

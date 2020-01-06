@@ -14,8 +14,9 @@
         <module>java-chassis-vertx</module>
         <module>spring-cloud-webflux</module>
         <module>spring-cloud-native</module>
-        <module>spring-cloud-alibaba</module>
         <module>dubbo</module>
+        <module>hsf</module>
+        <module>tars</module>
     </modules>
     <build>
         <plugins>
