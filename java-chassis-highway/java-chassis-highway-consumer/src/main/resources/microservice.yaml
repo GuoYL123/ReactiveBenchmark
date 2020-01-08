@@ -14,16 +14,6 @@ cse:
       serverUri: https://cse.cn-north-4.myhuaweicloud.com:443
       refreshMode: 1
       refresh_interval: 5000
-  rest:
-    address: 0.0.0.0:8081
-    client:
-      verticle-count: 1
-      connection:
-        maxPoolSize: 100
-        idleTimeoutInSeconds: 60   #单位秒
-        keepAlive: true
-    server:
-      verticle-count: 8
   highway:
     address: 0.0.0.0:7070
     client:

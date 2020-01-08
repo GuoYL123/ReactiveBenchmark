@@ -14,12 +14,10 @@ cse:
       serverUri: https://cse.cn-north-4.myhuaweicloud.com:443
       refreshMode: 1
       refresh_interval: 5000
-  rest:
-    address: 0.0.0.0:8082
-    server:
-      verticle-count: 8
   highway:
     address: 0.0.0.0:7070
+    server:
+      verticle-count: 8
   credentials:
     accessKey: yourak
     secretKey: yoursk
