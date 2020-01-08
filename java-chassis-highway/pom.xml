@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>reactive-test</artifactId>
+    <groupId>reactive</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>java-chassis-highway</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>java-chassis-highway-consumer</module>
+    <module>java-chassis-highway-provider</module>
+  </modules>
+
+  <properties>
+    <cse.version>2.5.0</cse.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.huawei.paas.cse</groupId>
+        <artifactId>cse-dependency</artifactId>
+        <version>${cse.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.huawei.paas.cse</groupId>
+      <artifactId>cse-solution-service-engine</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.servicecomb</groupId>
+      <artifactId>transport-highway</artifactId>
+    </dependency>
+  </dependencies>
+</project>

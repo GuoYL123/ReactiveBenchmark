@@ -17,6 +17,7 @@
         <module>dubbo</module>
         <module>hsf</module>
         <module>tars</module>
+        <module>java-chassis-highway</module>
     </modules>
     <build>
         <plugins>
